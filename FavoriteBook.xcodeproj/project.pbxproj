@@ -13,6 +13,8 @@
 		837F5E7B23F55780001BB6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837F5E7A23F55780001BB6DC /* Assets.xcassets */; };
 		837F5E7E23F55780001BB6DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837F5E7D23F55780001BB6DC /* Preview Assets.xcassets */; };
 		837F5E8123F55780001BB6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837F5E7F23F55780001BB6DC /* LaunchScreen.storyboard */; };
+		837F5E8923F55889001BB6DC /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F5E8823F55889001BB6DC /* FavoriteModel.swift */; };
+		837F5E8D23F69775001BB6DC /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F5E8C23F69775001BB6DC /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		837F5E7D23F55780001BB6DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837F5E8023F55780001BB6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837F5E8223F55780001BB6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837F5E8823F55889001BB6DC /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		837F5E8C23F69775001BB6DC /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				837F5E7423F5577A001BB6DC /* AppDelegate.swift */,
 				837F5E7623F5577A001BB6DC /* SceneDelegate.swift */,
 				837F5E7823F5577A001BB6DC /* ContentView.swift */,
+				837F5E8823F55889001BB6DC /* FavoriteModel.swift */,
+				837F5E8C23F69775001BB6DC /* DetailsView.swift */,
 				837F5E7A23F55780001BB6DC /* Assets.xcassets */,
 				837F5E7F23F55780001BB6DC /* LaunchScreen.storyboard */,
 				837F5E8223F55780001BB6DC /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				837F5E7523F5577A001BB6DC /* AppDelegate.swift in Sources */,
+				837F5E8D23F69775001BB6DC /* DetailsView.swift in Sources */,
 				837F5E7723F5577A001BB6DC /* SceneDelegate.swift in Sources */,
 				837F5E7923F5577A001BB6DC /* ContentView.swift in Sources */,
+				837F5E8923F55889001BB6DC /* FavoriteModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
